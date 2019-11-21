@@ -5,7 +5,7 @@
 -- Dumped from database version 9.6.10
 -- Dumped by pg_dump version 11.3
 
--- Started on 2019-11-21 08:34:49 UTC
+-- Started on 2019-11-21 09:27:07 UTC
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1672,7 +1672,7 @@ ALTER TABLE ONLY public.usr_user_role
     ADD CONSTRAINT usr_user_role_role_id_fkey FOREIGN KEY (role_id) REFERENCES public.usr_role(role_id);
 
 
--- Completed on 2019-11-21 08:35:11 UTC
+-- Completed on 2019-11-21 09:27:30 UTC
 
 --
 -- PostgreSQL database dump complete
